@@ -21,7 +21,10 @@ export default function BtnScroll({
   };
 
   return (
-    <button className={`${className} px-4 py-2 duration-300 bg-black opacity-70 hover:bg-[rgb(22,22,22)] hover:opacity-100 rounded-lg`} onClick={() => handleClickScroll(id)}>
+    <button
+      className={`${className} px-4 py-2 duration-300 bg-black opacity-70 hover:bg-[rgb(22,22,22)] hover:opacity-100 rounded-lg`}
+      onClick={() => handleClickScroll(id)}
+    >
       {children}
     </button>
   );
