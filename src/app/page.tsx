@@ -4,28 +4,34 @@ import BtnScroll from "@/components/BtnScroll";
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center bg-black text-white gap-8 ">
-      <main className="flex flex-col gap-32 px-6">
-        <section className="flex flex-col justify-center items-center gap-4 h-screen">
-          <div>
-            <h1 className="text-2xl font-serif font-bold lg:text-5xl">
-              Tiago Montes dos Santos
-            </h1>
-          </div>
+      <header className="fixed top-0 w-full z-10">
+        <ul className="flex gap-2 flex-col lg:flex-row p-2 border-b border-[rgb(66,66,66)]">
+          <li>
+            <BtnScroll id="index">Me</BtnScroll>
+          </li>
+          <li>
+            <BtnScroll id="about-me">About me</BtnScroll>
+          </li>
+          <li>
+            <BtnScroll id="skills">Skills</BtnScroll>
+          </li>
+          <li>
+            <BtnScroll id="experiences">Experiences</BtnScroll>
+          </li>
+          <li>
+            <BtnScroll id="contact">Contact</BtnScroll>
+          </li>
+        </ul>
+      </header>
 
-          <ul className="flex gap-2 flex-col lg:flex-row p-2 border border-[rgb(66,66,66)] rounded-2xl">
-            <li>
-              <BtnScroll id="about-me">About me</BtnScroll>
-            </li>
-            <li>
-              <BtnScroll id="skills">Skills</BtnScroll>
-            </li>
-            <li>
-              <BtnScroll id="experiences">Experiences</BtnScroll>
-            </li>
-            <li>
-              <BtnScroll id="contact">Contact</BtnScroll>
-            </li>
-          </ul>
+      <main className="flex flex-col gap-32 px-6">
+        <section
+          id="index"
+          className="flex flex-col justify-center items-center gap-4 h-screen"
+        >
+          <h1 className="text-2xl font-serif font-bold lg:text-5xl">
+            Tiago Montes dos Santos
+          </h1>
         </section>
 
         <section id="about-me" className="flex flex-col h-screen pt-6">
