@@ -1,28 +1,10 @@
 import Footer from "@/components/Footer";
-import BtnScroll from "@/components/BtnScroll";
+import Header from "@/components/Header";
 
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center bg-black text-white gap-8 ">
-      <header className="fixed top-0 w-full z-10">
-        <ul className="flex gap-2 flex-col lg:flex-row p-2 border-b border-[rgb(66,66,66)]">
-          <li>
-            <BtnScroll id="index">Me</BtnScroll>
-          </li>
-          <li>
-            <BtnScroll id="about-me">About me</BtnScroll>
-          </li>
-          <li>
-            <BtnScroll id="skills">Skills</BtnScroll>
-          </li>
-          <li>
-            <BtnScroll id="experiences">Experiences</BtnScroll>
-          </li>
-          <li>
-            <BtnScroll id="contact">Contact</BtnScroll>
-          </li>
-        </ul>
-      </header>
+      <Header />
 
       <main className="flex flex-col gap-32 px-6">
         <section
@@ -34,8 +16,8 @@ export default function Home() {
           </h1>
         </section>
 
-        <section id="about-me" className="flex flex-col h-screen pt-6">
-          <h1 className="font-bold font-serif text-2xl">About me</h1>
+        <section id="about-me" className="flex flex-col h-screen lg:pt-6 pt-16">
+          <h1 className="font-bold font-serif text-2xl pt-12">About me</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
             placerat lacus vel magna sodales, id convallis augue rutrum. Nunc
@@ -53,8 +35,8 @@ export default function Home() {
           </p>
         </section>
 
-        <section id="skills" className="flex flex-col h-screen pt-6">
-          <h1 className="font-bold font-serif text-2xl">Skills</h1>
+        <section id="skills" className="flex flex-col h-screen lg:pt-6 pt-16">
+          <h1 className="font-bold font-serif text-2xl pt-12">Skills</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
             placerat lacus vel magna sodales, id convallis augue rutrum. Nunc
@@ -72,8 +54,11 @@ export default function Home() {
           </p>
         </section>
 
-        <section id="experiences" className="flex flex-col h-screen pt-6">
-          <h1 className="font-bold font-serif text-2xl">Experiences</h1>
+        <section
+          id="experiences"
+          className="flex flex-col h-screen lg:pt-6 pt-16"
+        >
+          <h1 className="font-bold font-serif text-2xl pt-12">Experiences</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
             placerat lacus vel magna sodales, id convallis augue rutrum. Nunc
@@ -91,8 +76,8 @@ export default function Home() {
           </p>
         </section>
 
-        <section id="contact" className="flex flex-col pt-6">
-          <h1 className="font-bold font-serif text-2xl">Contact</h1>
+        <section id="contact" className="flex flex-col lg:pt-0 pt-16">
+          <h1 className="font-bold font-serif text-2xl pt-12 ">Contact</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
             placerat lacus vel magna sodales, id convallis augue rutrum. Nunc
