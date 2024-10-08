@@ -1,5 +1,6 @@
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import About from "@/components/About";
 
 export default function Home() {
   return (
@@ -16,24 +17,7 @@ export default function Home() {
           </h1>
         </section>
 
-        <section id="about-me" className="flex flex-col h-screen lg:pt-6 pt-16">
-          <h1 className="font-bold font-serif text-2xl pt-12">About me</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-            placerat lacus vel magna sodales, id convallis augue rutrum. Nunc
-            euismod laoreet sapien eget mattis. Nulla eget enim lectus. Praesent
-            eu elit nibh. Pellentesque habitant morbi tristique senectus et
-            netus et malesuada fames ac turpis egestas. Phasellus dictum mi a
-            blandit hendrerit. Nunc eu finibus mauris. Aliquam eleifend placerat
-            cursus. Aenean scelerisque varius nulla, et pellentesque dui
-            imperdiet eu. Mauris nec ultricies urna. Proin rhoncus feugiat enim
-            imperdiet cursus. Quisque ultricies augue hendrerit, laoreet enim
-            vulputate, auctor nunc. Cras pulvinar eros a ante iaculis egestas.
-            Cras nec est ac ligula suscipit varius. Maecenas ultricies cursus
-            turpis vitae pulvinar. Morbi sagittis tellus in lobortis iaculis.
-            Quisque pretium nec dui in varius.
-          </p>
-        </section>
+        <About />
 
         <section id="skills" className="flex flex-col h-screen lg:pt-6 pt-16">
           <h1 className="font-bold font-serif text-2xl pt-12">Skills</h1>
