@@ -17,10 +17,15 @@ export default function About() {
           moving there someday. Also, I'm a huge cat lover—I have quite a few!
         </span>
         <span>
-          I used to work as a developer at the Secretary of Tourism, where I first got into programming with the help of a colleague who worked for Stone. I had a year-long mentorship with him. After that, I started working at Stay Charlie, a proptech that grew rapidly thanks to its technological innovation in the hotel industry.
+          I used to work as a developer at the Secretary of Tourism, where I
+          first got into programming with the help of a colleague who worked for
+          Stone. I had a year-long mentorship with him. After that, I started
+          working at Stay Charlie, a proptech that grew rapidly thanks to its
+          technological innovation in the hotel industry.
         </span>
         <span>
-          I've also done some freelance work developing small software projects for forest monitoring and indigenous assistance.
+          I've also done some freelance work developing small software projects
+          for forest monitoring and indigenous assistance.
         </span>
       </p>
     </section>
