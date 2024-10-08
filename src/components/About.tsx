@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section id="about-me" className="flex flex-col h-screen lg:pt-6 pt-16">
       <h1 className="font-bold font-serif text-2xl pt-12 pb-2">About me</h1>
-      <p className="w-1/3 flex flex-col gap-2">
+      <p className="lg:w-1/3 flex flex-col gap-2">
         <span>
           Hey! My name is Tiago, I'm 25 and from Acre. I'm really into tech and
           always looking to improve my skills. I prefer Back-End development ,
